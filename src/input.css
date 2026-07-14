@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+aside,
+header,
+main{
+    /* @apply border */
+}
+
+nav div{
+    @apply flex items-center gap-3
+}
+
+nav div p{
+    @apply font-semibold
+}
+
+header button{
+    @apply bg-blue-500 text-white px-1 md:px-3 py-2 rounded-xl
+}
+
+#gray div{
+    @apply shadow-[0_4px_10px_gray]
+    pb-10 px-5 space-y-8 border-l-10 border-amber-500
+    rounded-xl pt-5
+}
+
+#gray span{
+    @apply ml-50 flex gap-3
+}
+
+#gray h1{
+    @apply font-bold text-xl -mb-0
+}
+
+#white h2{
+    @apply font-bold
+}
